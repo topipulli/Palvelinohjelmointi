@@ -13,7 +13,7 @@ public class locationController {
 	public String sayHelloToUser(@RequestParam(name="name", required=false, defaultValue="John Doe") String name, 
 			@RequestParam(name="location", required=false, defaultValue = "Nowhere") String location) {
 		
-		return "Welcome to " + location + " " + name + "!";
+		return "Welcome to " + location + " " + name + "!!";
 		
 	}
 	
